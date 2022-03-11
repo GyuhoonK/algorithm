@@ -9,3 +9,9 @@ Language : Python
 ```python
 list(zip(*arr[::-1]))
 ```
+
+### 재귀함수 사용 시
+```python
+import sys
+sys.setrecursionlimit(10**6)
+```
