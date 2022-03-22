@@ -8,7 +8,7 @@ input = sys.stdin.readline
 
 X = list(input().strip())
 Y = list(input().strip())
-print(X, Y)
+
 DP = [[0 for _ in range(len(Y)+1)] for _ in range(len(X)+1)]
 
 for i in range(1, len(X)+1) : 
